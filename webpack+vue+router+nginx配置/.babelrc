@@ -1,0 +1,19 @@
+{
+  "plugins": [
+     [
+      "transform-runtime",
+      {
+        "polyfill": false
+      }
+     ]
+   ],
+   "presets": [
+     [
+       "env",
+       {
+         "modules": false   // 关闭Babel的模块转换功能，保留ES6模块化语法
+       }
+     ],
+     "stage-2"
+  ]
+}

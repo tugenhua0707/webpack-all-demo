@@ -1,0 +1,26 @@
+{
+  "name": "hash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --disableHostCheck=true --progress --colors --devtool cheap-module-eval-source-map --hot --inline",
+    "build": "webpack --progress --colors --devtool cheap-module-source-map -p",
+    "build:dll": "webpack --config webpack.dll.config.js"
+  },
+  "author": "",
+  "sideEffects": false,
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "path": "^0.12.7",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {}
+}

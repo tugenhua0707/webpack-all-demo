@@ -54,7 +54,7 @@
     "body-parser": "^1.18.3",
     "element-ui": "^2.4.9",
     "express": "^4.16.4",
-    "mongodb": "^2.2.33",
+    "mongodb": "^3.1.13",
     "mongoose": "^5.3.9",
     "vue": "^2.5.17",
     "vue-resource": "^1.5.1",

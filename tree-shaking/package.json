@@ -44,7 +44,7 @@
     "webpack-parallel-uglify-plugin": "^1.1.0"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "echarts": "^4.1.0",
     "http-proxy-middleware": "^0.18.0",
     "jquery": "^3.3.1"

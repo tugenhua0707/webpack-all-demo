@@ -46,7 +46,7 @@
     "webpack-parallel-uglify-plugin": "^1.1.0"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "echarts": "^4.1.0",
     "fetch": "^1.1.0",
     "fs": "0.0.1-security",
